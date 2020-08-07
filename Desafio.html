@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <div id="container">
+    <fieldset>
+      <h1>Desafio desenvolvedor FullStack</h1>
+      <table>
+        <tr>
+          <th>(R)Vermelho</th>
+          <th>(G)Verde</th>
+          <th>(B)Azul</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="r"
+            onchange="changeRange()"
+          </td>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="g"
+            onchange="changeRange()"
+          </td>
+          <td>
+            <input type="range" min="0" max="255" value="0" id="b"
+            onchange="changeRange()"
+          </tr>
+         
+        </tr>
+        <td id="r-label">0</td>
+        <td id="g-label">0</td>
+        <td id="b-label">0</td>
+      
+            
+      </table>
+    </fieldset>
+  </div >
+    <div class="cor"></div>
+ 
+    <script src="./js/script.js"></script>
+  </body>
+</html>
