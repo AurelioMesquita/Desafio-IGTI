@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Pratica 2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        Vermelho(R)
+        <br />
+        <input
+          type="range"
+          id="Red"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+          onchange="changeRange()"
+        />
+        <input type="text" id="Red_Text" size="5px" disabled />
+      </ul>
+      <ul>
+        Verde(G)
+        <br />
+        <input
+          type="range"
+          id="Green"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+          onchange="changeRange()"
+        />
+        <input type="text" id="Green_Text" size="5px" disabled />
+      </ul>
+      <ul>
+        Azul(B)
+        <br />
+        <input
+          type="range"
+          id="Blue"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+          onchange="changeRange()"
+        />
+        <input type="text" size="5px" id="Blue_Text" disabled />
+      </ul>
+      <div class="cor"></div>
+    </div>
+
+    <script type="	text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
